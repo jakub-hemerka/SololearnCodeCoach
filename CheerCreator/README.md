@@ -11,11 +11,15 @@ An integer value that represents the number of yards gained or lost by your team
 ## Output Format 
 A string of the appropriate cheer. 
 
-## Sample Input 
+## Sample Input
+```
 3
+```
 
 ## Sample Output
+```
 Ra!Ra!Ra!
+```
 
 ## Explanation
 If your team gains 3 yards you would cheer 'Ra!' three times for that play.
