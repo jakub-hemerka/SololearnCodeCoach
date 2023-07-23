@@ -13,10 +13,14 @@ A string containing one word.
 A string: true or false.
 
 ## Sample Input: 
+```
 turbulence
+```
 
 ## Sample Output: 
+```
 false
+```
 
 ## Explanation: 
 The word turbulence has multiple "u" and "e" in it, which would mean it is not an isogram.
