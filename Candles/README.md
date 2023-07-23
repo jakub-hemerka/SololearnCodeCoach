@@ -11,11 +11,15 @@ An integer that represents the number of friends that ask to order candles with 
 ## Output Format 
 An integer that represents the total number of candles that you need to order.
 
-## Sample Input 
+## Sample Input
+```
 4
+```
 
 ## Sample Output 
+```
 45
+```
 
 ## Explanation 
 If four of your friends ask you to order their candles for them, you will need 9 for each of them, and 9 for yourself. That's 45.
