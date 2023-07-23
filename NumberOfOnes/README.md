@@ -10,10 +10,14 @@ An integer.
 An integer representing the count of ones in the binary representation of the input.
 
 ## Sample Input:
+```
 9
+```
 
 ## Sample Output:
+```
 2
+```
 
 ## Explanation: 
 The binary representation of 9 is 1001, which includes 2 ones. 
