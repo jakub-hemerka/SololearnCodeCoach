@@ -11,12 +11,16 @@ Two integer values, the first one is the price in Pesos and the second one is th
 ## Output Format 
 A string that says which currency you should make the purchase in ('Dollars' or 'Pesos').
 
-## Sample Input 
+## Sample Input
+```
 4000
 100
+```
 
 ## Sample Output 
+```
 Pesos
+```
 
 ## Explanation 
 You should use Pesos to buy the hat since 4000 pesos is equal to $80.
