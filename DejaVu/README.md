@@ -1,24 +1,25 @@
-# Divisible  
+# Deja Vu  
 
-You need to know if a number is divisible by each of a group of other numbers. If you are given the number and the group of other numbers, you will test to make sure that it is divisible by all of them.  
+You aren't paying attention and you accidentally type a bunch of random letters on your keyboard. You want to know if you ever typed the same letter twice, or if they are all unique letters.
 
 ## Task: 
-Test your number against all of the other numbers that you are given to make sure that it is divisible by them.
+If you are given a string of random letters, your task is to evaluate whether any letter is repeated in the string or if you only hit unique keys while you typing.
 
 ## Input Format: 
-Two inputs: an integer value (the number you are testing) and a string of variable length of the integers that you should test against separated by spaces.
+A string of random letter characters (no numbers or other buttons were pressed).
 
 ## Output Format: 
-A string that says 'divisible by all' or 'not divisible by all'.
+A string that says 'Deja Vu' if any letter is repeated in the input string, or a string that says 'Unique' if there are no repeats.
 
 ## Sample Input: 
 ```
-100
-2 5 10
+aaaaaaaghhhhjkll
 ```
+
 ## Sample Output: 
 ```
-divisible by all
+Deja Vu
 ```
+
 ## Explanation: 
-100 is divisible by 2, 5, and 10. 
+Your program should output 'Deja Vu' because there are many repetitions in 'aaaaaaaghhhhjkll'.
