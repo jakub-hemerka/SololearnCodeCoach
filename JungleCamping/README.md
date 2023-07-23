@@ -12,10 +12,14 @@ A string that represent the noises that you hear with a space between them.
 A string that includes each animal that you hear with a space after each one. (animals can repeat)
 
 ## Sample Input: 
+```
 Rawr Chirp Ssss
+```
 
 ## Sample Output: 
+```
 Tiger Bird Snake
+```
 
 ## Explanation: 
 You heard the noise made by a tiger, then a bird, and then a snake.
