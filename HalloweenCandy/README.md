@@ -12,10 +12,14 @@ An integer (>=3) representing the total number of houses that you visited.
 A percentage value rounded up to the nearest whole number.
 
 ## Sample Input
+```
 4
+```
 
 ## Sample Output 
+```
 50
+```
 
 ## Explanation 
 If you visited four houses, one would be candy, two would be dollars, and one would be a toothbrush. A 2 in 4 chance is 50%.
