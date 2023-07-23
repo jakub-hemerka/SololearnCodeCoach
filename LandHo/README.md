@@ -12,10 +12,14 @@ An integer that represents the total number of people ahead of you in line.
 An integer that represents the number of minutes that you will have to wait until you are standing on the beach.
 
 ## Sample Input: 
+```
 15
+```
 
 ## Sample Output: 
+```
 10
+```
 
 ## Explanation: 
 You can get on the boat right away if you are the 16th person in line, it takes 10 minutes on the boat to get to the beach. 
