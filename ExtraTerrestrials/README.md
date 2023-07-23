@@ -13,10 +13,14 @@ A string of a word in English.
 A string of the reversed word that represents the original word translated into alien language.
 
 ## Sample Input: 
+```
 howdy
+```
 
 ## Sample Output: 
+```
 ydwoh
+```
 
 ## Explanation: 
 If you flip howdy backwards you get ydwoh. 
