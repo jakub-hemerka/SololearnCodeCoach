@@ -12,10 +12,14 @@ An integer that represents the number of colors that you want to purchase for yo
 A number that represents the cost of your purchase rounded up to the nearest whole number.
 
 ## Sample Input 
+```
 10
+```
 
 ## Sample Output 
+```
 99
+```
 
 ## Explanation 
 You need 50.00 to buy 10 colors of paint + 40.00 for the canvas and brushes + 9.00 for the tax.
