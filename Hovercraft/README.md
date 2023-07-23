@@ -12,10 +12,14 @@ An integer that represents the sales that you made that month.
 A string that says 'Profit', 'Loss', or 'Broke Even'.
 
 ## Sample Input: 
+```
 5
+```
 
 ## Sample Output: 
+```
 Loss
+```
 
 ## Explanation: 
 If you only sold 5 hovercrafts, you spent 21,000,000 to operate but only made 15,000,000.
