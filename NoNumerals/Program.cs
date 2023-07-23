@@ -1,4 +1,4 @@
-﻿string[] words = Console.ReadLine()!.ToLower().Split(' ');
+﻿string[] words = Console.ReadLine()!.Split(' ');
 
 Dictionary<string, string> convertTable = new()
         {

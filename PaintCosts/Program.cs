@@ -2,5 +2,5 @@
 
 if (int.TryParse(paintCountAsString, out int paintCount))
 {
-    Console.Write((paintCount * 5 + 40) * 1.10);
+    Console.Write(Math.Round((paintCount * 5 + 40) * 1.10));
 }

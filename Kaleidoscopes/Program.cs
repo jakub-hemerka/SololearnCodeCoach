@@ -1,5 +1,5 @@
 ﻿string itemsBoughtAsString = Console.ReadLine()!;
-decimal price = 0;
+double price = 0;
 
 if (int.TryParse(itemsBoughtAsString, out int itemsBought))
 {
@@ -7,8 +7,8 @@ if (int.TryParse(itemsBoughtAsString, out int itemsBought))
 
 	if (itemsBought > 1)
 	{
-		price *= 0.90M;
+		price *= 0.90;
 	}
 
-	Console.Write(price * 1.07M);
+	Console.Write(Math.Round(price * 1.07, 2, MidpointRounding.AwayFromZero));
 }

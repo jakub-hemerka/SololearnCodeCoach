@@ -17,7 +17,7 @@ internal class Program
 
     private static DateTime ParseDate(string dateAsString)
     {
-        if (DateTime.TryParseExact(dateAsString, "MMMM dd, yyyy", CultureInfo.CreateSpecificCulture("en-US"), DateTimeStyles.None, out DateTime result))
+        if (DateTime.TryParseExact(dateAsString, "MMMM d, yyyy", CultureInfo.CreateSpecificCulture("en-US"), DateTimeStyles.None, out DateTime result))
         {
             return result;
         }

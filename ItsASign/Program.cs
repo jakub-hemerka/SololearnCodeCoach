@@ -13,7 +13,9 @@ foreach (string sign in signs)
         continue;
     }
 
-    if (sign.Equals(sign.Reverse()))
+    string reversed = new string(sign.Reverse().ToArray());
+
+    if (sign.Equals(reversed))
     {
         Console.Write("Open");
         return;

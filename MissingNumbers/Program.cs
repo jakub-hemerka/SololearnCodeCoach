@@ -7,7 +7,7 @@ if (int.TryParse(numberOfLinesAsString, out int numberOfLines) && numberOfLines 
 
     for (int i = 0; i < numberOfLines; i++)
     {
-        while (!int.TryParse(Console.ReadLine(), out int number))
+        if (int.TryParse(Console.ReadLine(), out int number))
         {
             numbers[i] = number;
         }

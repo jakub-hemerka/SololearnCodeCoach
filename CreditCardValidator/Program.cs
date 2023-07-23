@@ -6,9 +6,11 @@ if (cardNumberAsCharacters.Length == 16 && cardNumberAsCharacters.All(char.IsDig
     Array.Reverse(cardNumberAsCharacters);
     for (int i = 0; i < cardNumberAsCharacters.Length; i++)
     {
+        cardNumber[i] = (int)char.GetNumericValue(cardNumberAsCharacters[i]);
+        
         if (i % 2 == 1)
         {
-            cardNumber[i] = (int)char.GetNumericValue(cardNumberAsCharacters[i]) * 2;
+            cardNumber[i] *= 2;
         }
 
         if (cardNumber[i] > 9)
@@ -17,5 +19,8 @@ if (cardNumberAsCharacters.Length == 16 && cardNumberAsCharacters.All(char.IsDig
         }
     }
 
-    Console.Write(cardNumber.Sum() % 10 == 0 ? "valid" : "invalid");
+    Console.Write(cardNumber.Sum() % 10 == 0 ? "valid" : "not valid");
+    return;
 }
+
+Console.Write("not valid");

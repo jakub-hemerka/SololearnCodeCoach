@@ -29,4 +29,4 @@ while (position + cutLength <= word.Length)
     cutLength = 1;
 }
 
-Console.WriteLine(output);
+Console.Write(output);

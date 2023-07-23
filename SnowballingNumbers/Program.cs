@@ -24,4 +24,4 @@ for (int i = 0; i < lines; i++)
 
 }
 
-Console.Write(output);
+Console.Write(output ? "true" : "false");

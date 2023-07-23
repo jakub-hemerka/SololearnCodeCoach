@@ -3,5 +3,5 @@ string prize = Console.ReadLine()!;
 
 if (content.Contains(prize))
 {
-    Console.Write($"It will take you {(Array.IndexOf(content, prize) + 1) * 5} minutes.");
+    Console.Write((Array.IndexOf(content, prize) + 1) * 5);
 }

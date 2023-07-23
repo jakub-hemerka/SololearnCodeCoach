@@ -13,4 +13,7 @@ if (int.TryParse(cutLengthAsString, out int cutLength) && cutLength > 0 && cutLe
     }
 
     Console.Write(output.ToString());
+    return;
 }
+
+Console.Write(word);
