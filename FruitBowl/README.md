@@ -12,10 +12,14 @@ An integer that represents the total amount of fruit in the bowl.
 An integer representing the total number of whole apple pies that you can make.
 
 ## Sample Input
-26 
+```
+26
+```
 
 ## Sample Output 
+```
 4
+```
 
 ## Explanation 
 If you have 26 pieces of fruit, you have 13 apples, which makes 4 pies, and leaves one apple left over.
