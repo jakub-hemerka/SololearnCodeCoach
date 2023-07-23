@@ -13,10 +13,14 @@ An integer.
 An integer, representing the sum of all the multiples of 3 and 5 below the given input.
 
 ## Sample Input: 
+```
 10
+```
 
 ## Sample Output:
+```
 23
+```
 
 ## Explanation: 
 The numbers below 10 that are multiples of 3 or 5 are 3, 5, 6 and 9.
