@@ -12,10 +12,14 @@ Your input is a string that represents the snacks that you have. Snacks are sepa
 A string that says 'Come on Down!' if you have enough points, or 'Time to wait' if you do not. 
 
 ## Sample Input: 
+```
 Mango Cheeseburger Carrot
+```
 
 ## Sample Output:
+```
 Come on Down!
+```
 
 ## Explanation: 
 You have 13 snack points with a mango, cheeseburger, and carrot, which is enough to convince the iguana to come down. 
