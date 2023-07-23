@@ -38,17 +38,22 @@
                     break;
                 }
 
-                var upper = CalculateFactorial(remainingLetters.Count);
-                var test = remainingLetters.GroupBy(x => x);
+                // Calculating how many words are above this
+                // For example, the word is SOLOLEARN
+                // The word has 9 characters and I'm trying to find first letter. 8 positions are empty -> factorial it.
+                // Second part is multiplication of factorials of how many times are remaining letters occuring (don't do the same letter more then once)...
+                // Lets say remaining letters are E,L,L,N,O,O,R,S -> 1! * 2! * 1! * 2! * 1! * 1!
+                // Result: 8! / 1! * 2! * 1! * 2! * 1! * 1! = 40320 / 4 = 10080
+                int upper = CalculateFactorial(remainingLetters.Count);
+                var characterGroups = remainingLetters.GroupBy(x => x);
+                int lower = 1;
 
-                var lower = 1;
-
-                foreach (var item in test)
+                foreach (var item in characterGroups)
                 {
                     lower *= CalculateFactorial(item.Count());
                 }
-
                 wordRank += (upper / lower);
+
                 remainingLetters.Insert(i, letter);
             }
         }
