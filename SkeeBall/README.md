@@ -12,11 +12,15 @@ The first input is an integer value that represents the points that you scored p
 A string that say 'Buy it!' if you will have enough tickets, or a string that says 'Try again' if you will not.
 
 ## Sample Input 
+```
 500
 40
+```
 
 ## Sample Output
+```
 Buy it!
+```
 
 ## Explanation
 By scoring 500 points, you will receive 41 tickets, which is enough to buy the squirt gun at a price of 40 tickets.
