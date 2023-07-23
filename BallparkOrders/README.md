@@ -12,10 +12,14 @@ You are given a string of the four items that you've been asked to order that ar
 You will output a number of the total cost of the food and drinks.
 
 ## Sample Input 
+```
 'Pizza Cheeseburger Water Popcorn'
+```
 
 ## Sample Output 
+```
 26.75
+```
 
 ## Explanation
 Because Popcorn is not on the menu, this friend gets a coke which brings the subtotal to $25.00 and $26.75 with tax.
