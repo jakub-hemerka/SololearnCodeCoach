@@ -13,11 +13,15 @@ A string (letters can be both uppercase or lower case).
 ## Output Format: 
 A number which represents the total number of vowels in the string.
 
-## Sample Input: 
+## Sample Input:
+```
 this is a sentence
+```
 
 ## Sample Output: 
+```
 6
+```
 
 ## Explanation:  
 There are 6 vowels in the sentence: this is a sentence.
