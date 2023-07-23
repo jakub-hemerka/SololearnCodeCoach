@@ -11,7 +11,7 @@
         }
 
         List<char> foundLetters = new List<char>();
-        List<char> remainingLetters = new List<char>(word.Order());
+        List<char> remainingLetters = new List<char>(word.OrderBy(x => x));
         List<char> alreadyChecked = new List<char>(); // Don't want to check l twice in word hello...
 
         int wordRank = 1;
