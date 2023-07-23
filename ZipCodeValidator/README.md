@@ -13,11 +13,15 @@ A string containing a zip code.
 ## Output Format: 
 A string: true is the input is a valid zip code, or false, if it is not. 
 
-## Sample Input: 
+## Sample Input:
+```
 752f78
+```
 
 ## Sample Output: 
+```
 false
+```
 
 ## Explanation: 
 A valid zip code contains 5 digits, and no letters or spaces. The input is 6 characters long and contains letters, making it an invalid zip code.
