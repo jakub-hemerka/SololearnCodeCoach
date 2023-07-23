@@ -12,10 +12,14 @@ An integer that represents the total number of criminals present at the scene.
 A string that says 'I got this!', 'Help me Batman', or 'Good Luck out there!' depending on the scenario.
 
 ## Sample Input: 
+```
 7
+```
 
 ## Sample Output: 
+```
 'Help me Batman'
+```
 
 ## Explanation: 
 If there are 7 criminals, you and Batman should handle this situation together.
