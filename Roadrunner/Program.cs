@@ -20,7 +20,7 @@
 
     private static double GetData()
     {
-        string dataAsString = Console.ReadLine();
+        string dataAsString = Console.ReadLine()!;
 
         if (double.TryParse(dataAsString, out double output))
         {
